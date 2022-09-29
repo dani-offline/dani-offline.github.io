@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+body {
+  background: #4a0019;
+  text-align: center;
+  font-family: 'aglet-mono', monospace;
+  font-size: 1.5vw;
+  color: #ff3300;
+  margin: 0px;
+  cursor: default;
+}
+a {
+  text-decoration: none;
+  color: #ff3300;
+  cursor: pointer;
+  font-weight: 600;
+}
+a:hover {
+  background-image: 
+    radial-gradient(#ff3300 .5px, transparent .5px);
+}
+h1 {
+  font-family: 'CirrusCumulus', monospace;
+  font-size: 5vw;
+  line-height: 1vw;
+  color: #ff3300;
+  filter: drop-shadow(1px 0px 1px #ff3300);
+}
+h1:hover {
+    filter: drop-shadow(3px 0px 1px #ffd000);
+}
+h2 {
+  font-family: 'CirrusCumulus', monospace;
+  font-size: 3vw;
+  color: #ff3300;
+}
+@media screen and (max-width: 500px) {
+h1 {
+    font-size: 10vw;
+  }
+  h2 {
+    font-size: 6vw;
+  }
+  body {
+    font-size: 4vw;
+  }
+}
+.nav {
+  width: 100%;
+  margin: 0px;
+  background: #4a0019;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  height: inherit;
+  border-bottom: thin dotted #ff3300;
+  padding-top: 1vw;
+  z-index: 100;
+}
+.content {
+  margin: auto;
+  max-width: 700px;
+}
+.button {
+  background-image: 
+    radial-gradient(#ff3300 .5px, transparent .5px);
+  background-size: 2.5px 2.5px;
+  display: inline-block;
+  margin: auto;
+  padding-right: 1vw;
+  padding-left: 1vw;
+  text-align: center;
+  border: thin dotted #ff3300;
+  font-size: 2vw;
+  color: #ff3300;
+  font-family: 'aglet-mono', monospace; 
+}
+.button:hover {
+  border-top: thin dotted #ffd000;
+  border-right: thin dotted #ffd000;
+  color: #ffd000;
+}
+@media screen and (max-width: 700px) {
+.button {
+   font-size: 4vw;
+   background-image: none;
+  }
+  th {
+    font-size: 5vw;
+  }
+}
+button {
+  background: transparent;
+  cursor: pointer;
+}
+textarea {
+  width: 75%;
+  background: transparent;
+  color: #ffd000;
+  font-family: 'aglet-mono', monospace; 
+  font-size: 1.5vw;
+  border: thin dotted #ff3300;
+}
+textarea:active {
+  border: thin dotted #ff3300;
+}
+input {
+  width: 75%;
+  background: transparent;
+  color: #ffd000;
+  font-family: 'aglet-mono', monospace; 
+  font-size: 1.5vw;
+  border: thin dotted #ff3300;
+}
+.bigbutton {
+  background-image: 
+    radial-gradient(#ff3300 .5px, transparent .5px);
+  max-width: 700px;
+  background-size: 2.5px 2.5px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  border: thin dotted #ff3300;
+  font-family: 'CirrusCumulus', monospace;
+  font-size: 3vw;
+  padding: 5vw;
+  line-height: 5vw;
+}
+.bigbutton:hover {
+  border: thin dotted #ffd000;
+  color: #ffd000;
+}
+.pagetitle {
+  font-family: 'CirrusCumulus', monospace;
+  font-size: 3.5vw;
+  color: #ff3300;
+  position: fixed;
+  bottom: 0px;
+  left: .5vw;
+  z-index: 5;
+}
+@media screen and (max-width: 700px) {
+.pagetitle {
+    visibility: hidden;
+  }
+}
+.minibutton {
+  background-image: 
+    radial-gradient(#ff3300 .5px, transparent .5px);
+  background-size: 2.5px 2.5px;
+  display: inline-block;
+  margin: auto;
+  padding-right: 1vw;
+  padding-left: 1vw;
+  text-align: center;
+  border: thin dotted #ff3300;
+  font-size: 1.5vw;
+  color: #ff3300;
+  font-family: 'aglet-mono', monospace; 
+}
+.minibutton:hover {
+  border-top: thin dotted #ffd000;
+  border-right: thin dotted #ffd000;
+  color: #ffd000;
+}
+@media screen and (max-width: 700px) {
+.minibutton {
+   font-size: 4vw;
+   background-image: none;
+  }
+}
+.socials {
+  width: 100%;
+  z-index: 4;
+  background: #4a0019;
+  position: fixed;
+  bottom: 0px;
+  padding: .5vw;
+}
+table {
+  width: 100%;
+  padding: 1vw;
+  margin: auto;
+  text-align: center;
+}
+th {
+  font-family: 'CirrusCumulus', monospace;
+  font-size: 3.5vw;
+  padding: 2vw;
+  border-bottom: thin dotted #ff3300;
+}
+td {
+  font-family: 'aglet-mono', monospace;
+  font-size: 1.5vw;
+  border-top: thin dotted #ff3300;
+}
+img {
+  width: 100%;
+  background: rgba(255, 51, 0, 1);
+}
+img:hover {
+  filter: grayscale(100%);
+  filter: opacity(70%);
+  mix-blend-mode: multiply;
+}
+img.a:hover {
+  background: rgba(255, 51, 0, 1);
+}
+.past {
+  filter: grayscale(100%);
+  mix-blend-mode: multiply;
+}
+.pastimage {
+  background: rgba(255, 51, 0, 1);
+}
+.pastimage:hover {
+  filter: opacity(70%);
+}
+Aglet Mono Extra Light Italic {
+  font-family: aglet-mono, monospace;
+  font-weight: 200;
+  font-style: normal;
+}
+FIG Script {
+  font-family: fig-script, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+Lingua Light {
+  font-family: lingua, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: CirrusCumulus;
+  src: url(bhavanivas.github.io/CirrusCumulus.woff);
+}
