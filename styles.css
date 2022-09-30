@@ -198,15 +198,15 @@ img {
   width: 100%;
 }
 img:hover {
-  mix-blend-mode: hard-light;
+  mix-blend-mode: soft-light;
 }
-.event img:hover {
+img.event img:hover {
   filter: none;
 }
-.pastimage td:first-child {
+td.pastimage:first-child {
   first-child: background: rgba(255, 51, 0, 1);
 }
-.pastevent img{
+img.pastevent {
   filter: grayscale(100%);
   mix-blend-mode: multiply;
 }
