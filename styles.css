@@ -201,14 +201,14 @@ img {
 img:hover {
   mix-blend-mode: color-burn;
 }
-img.pastevent {
+img .pastevent {
   filter: grayscale(100%);
   mix-blend-mode: multiply;
 }
-img.event {
+img .event {
   background: rgba(255, 51, 0, 1);
 }
-.event:hover {
+img .pastevent:hover {
   filter: opacity(70%);
 }
 Aglet Mono Extra Light Italic {
