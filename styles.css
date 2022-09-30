@@ -216,17 +216,7 @@ Aglet Mono Extra Light Italic {
   font-weight: 200;
   font-style: normal;
 }
-FIG Script {
-  font-family: fig-script, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-Lingua Light {
-  font-family: lingua, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
 @font-face {
-  font-family: CirrusCumulus;
+  font-family: CirrusCumulus, monospace;
   src: url(CirrusCumulus.woff);
 }
