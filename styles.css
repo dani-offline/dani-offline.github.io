@@ -199,7 +199,7 @@ img {
   background: rgba(255, 51, 0, 1);
 }
 img:hover {
-  mix-blend-mode: color-burn;
+  mix-blend-mode: lighten;
 }
 img .pastevent {
   filter: grayscale(100%);
