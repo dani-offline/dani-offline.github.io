@@ -204,12 +204,10 @@ img:hover {
 img .pastevent {
   filter: grayscale(100%);
   mix-blend-mode: multiply;
-}
-img .event {
   background: rgba(255, 51, 0, 1);
 }
-img .pastevent:hover {
-  filter: opacity(70%);
+img .event:hover {
+  filter: none;
 }
 Aglet Mono Extra Light Italic {
   font-family: aglet-mono, monospace;
