@@ -206,11 +206,11 @@ img:hover {
 img.a:hover {
   background: rgba(255, 51, 0, 1);
 }
-.pastevent {
+img.pastevent {
   filter: grayscale(100%);
   mix-blend-mode: multiply;
 }
-.event {
+img.event {
   background: rgba(255, 51, 0, 1);
 }
 .event:hover {
