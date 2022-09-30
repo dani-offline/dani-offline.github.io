@@ -196,18 +196,19 @@ td {
 }
 img {
   width: 100%;
-  background: rgba(255, 51, 0, 1);
 }
 img:hover {
   mix-blend-mode: difference;
 }
+img .event:hover {
+  filter: none;
+}
+td:first-child .pastimage{
+  first-child: background: rgba(255, 51, 0, 1);
+}
 img .pastevent {
   filter: grayscale(100%);
   mix-blend-mode: multiply;
-  background: rgba(255, 51, 0, 1);
-}
-img .event:hover {
-  filter: none;
 }
 Aglet Mono Extra Light Italic {
   font-family: aglet-mono, monospace;
