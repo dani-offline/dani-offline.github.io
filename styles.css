@@ -199,12 +199,7 @@ img {
   background: rgba(255, 51, 0, 1);
 }
 img:hover {
-  filter: grayscale(100%);
-  filter: opacity(70%);
   mix-blend-mode: multiply;
-}
-img.a:hover {
-  background: rgba(255, 51, 0, 1);
 }
 img.pastevent {
   filter: grayscale(100%);
