@@ -207,7 +207,7 @@ img:hover {
   filter: grayscale(100%);
   mix-blend-mode: multiply;
 }
-img.event img:hover {
+img.event:hover {
   mix-blend-mode: none;
 }
 img.pastevent {
