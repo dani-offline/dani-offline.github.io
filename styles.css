@@ -197,18 +197,15 @@ td {
 td:first-child {
   background: rgba(255, 51, 0, 1);
 }
-th:first-child {
+.img {
   background: rgba(255, 51, 0, 1);
 }
 img {
   width: 100%;
 }
-img:hover {
+.image:hover {
   filter: grayscale(100%);
   mix-blend-mode: multiply;
-}
-img.event:hover {
-  mix-blend-mode: none;
 }
 img.pastevent {
   filter: grayscale(100%);
