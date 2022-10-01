@@ -196,15 +196,13 @@ td {
 }
 img {
   width: 100%;
+  first-child: background: rgba(255, 51, 0, 1);
 }
 img:hover {
-  mix-blend-mode: soft-light;
+  mix-blend-mode: multiply;
 }
 img.event img:hover {
-  filter: none;
-}
-td.pastimage:first-child {
-  first-child: background: rgba(255, 51, 0, 1);
+  mix-blend-mode: none;
 }
 img.pastevent {
   filter: grayscale(100%);
