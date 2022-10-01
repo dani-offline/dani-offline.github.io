@@ -197,13 +197,13 @@ td {
 td:first-child {
   background: rgba(255, 51, 0, 1);
 }
-.img {
+.image {
   background: rgba(255, 51, 0, 1);
 }
 img {
   width: 100%;
 }
-.image:hover {
+img.image:hover {
   filter: grayscale(100%);
   mix-blend-mode: multiply;
 }
