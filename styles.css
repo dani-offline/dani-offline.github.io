@@ -203,7 +203,7 @@ td:first-child {
 img {
   width: 100%;
 }
-img.image:hover {
+.image img:hover {
   filter: grayscale(100%);
   mix-blend-mode: multiply;
 }
