@@ -206,12 +206,12 @@ img {
 .image img:hover {
   filter: grayscale(100%);
   mix-blend-mode: multiply;
-  filter: brightness(120%);
+  filter: brightness(105%);
 }
 .pastevent img {
   filter: grayscale(100%);
   mix-blend-mode: multiply;
-  filter: brightness(120%);
+  filter: brightness(105%);
 }
 Aglet Mono Extra Light Italic {
   font-family: aglet-mono, monospace;
