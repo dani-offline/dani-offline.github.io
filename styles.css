@@ -213,12 +213,15 @@ img {
   mix-blend-mode: multiply;
   filter: brightness(105%);
 }
-Aglet Mono Extra Light Italic {
+@font-face {
   font-family: aglet-mono, monospace;
+  src: url('/https://use.typekit.net/kfa8ohq.css');
   font-weight: 200;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: CirrusCumulus, monospace;
-  src: url(CirrusCumulus.woff);
+  src: url('/CirrusCumulus.woff') format('woff'), url('/CirrusCumulus.otf') format('otf');
+  font-display: swap;
 }
