@@ -199,17 +199,12 @@ td {
 td:first-child {
   background: rgba(255, 51, 0, 1);
 }
-.image {
-  padding: none;
-  background: rgba(255, 51, 0, 1);
-}
 img {
   width: 100%;
 }
 .image img:hover {
-  filter: grayscale(100%);
-  mix-blend-mode: multiply;
-  filter: brightness(105%);
+  filter: sepia(100%);
+  filter: saturation(105%);
 }
 .pastevent img {
   filter: grayscale(100%);
