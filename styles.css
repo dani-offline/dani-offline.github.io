@@ -167,6 +167,7 @@ input {
 .minibutton {
    font-size: 4vw;
    background-image: none;
+   padding: 2vw;
   }
 }
 .socials {
@@ -199,6 +200,7 @@ td:first-child {
 }
 .image {
   background: rgba(255, 51, 0, 1);
+  padding: 0px;
 }
 img {
   width: 100%;
