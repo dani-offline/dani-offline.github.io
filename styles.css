@@ -173,6 +173,7 @@ input {
 .minibutton {
    font-size: 4vw;
    background-image: none;
+   padding: 3vw;
   }
 }
 .socials {
@@ -182,11 +183,6 @@ input {
   position: fixed;
   bottom: 0px;
   padding: .5vw;
-}
-@media screen and (max-width: 700px) {
-.socials {
-   margin-bottom: 5vw; 
-  }
 }
 table {
   width: 100%;
