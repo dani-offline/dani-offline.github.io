@@ -129,6 +129,7 @@ input {
 .bigbutton:hover {
   border: thin dotted #ffd000;
   color: #ffd000;
+  background-image: none;
 }
 @media screen and (max-width: 700px) {
 .bigbutton {
@@ -184,7 +185,7 @@ input {
 }
 @media screen and (max-width: 700px) {
 .socials {
-   padding: 2vw; 
+   padding-bottom: 3vw; 
   }
 }
 table {
