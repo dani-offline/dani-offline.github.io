@@ -212,8 +212,7 @@ img {
   width: 100%;
 }
 .image img:hover {
-  filter: sepia(60%);
-  filter: saturation(200%);
+  filter: drop-shadow(3px 3px 2px #ff3300;);
 }
 .pastevent img {
   filter: grayscale(100%);
