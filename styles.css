@@ -130,6 +130,11 @@ input {
   border: thin dotted #ffd000;
   color: #ffd000;
 }
+@media screen and (max-width: 700px) {
+.bigbutton {
+   font-size: 5vw;
+  }
+}
 .pagetitle {
   font-family: 'CirrusCumulus', monospace;
   font-size: 3.5vw;
@@ -167,17 +172,20 @@ input {
 .minibutton {
    font-size: 4vw;
    background-image: none;
-   padding: 2vw;
-   padding-bottom: 1vw;
   }
 }
 .socials {
   width: 100%;
-  z-index: 4;
+  z-index: 100;
   background: #4a0019;
   position: fixed;
   bottom: 0px;
   padding: .5vw;
+}
+@media screen and (max-width: 700px) {
+.socials {
+   padding: 2vw; 
+  }
 }
 table {
   width: 100%;
@@ -203,8 +211,8 @@ img {
   width: 100%;
 }
 .image img:hover {
-  filter: sepia(100%);
-  filter: saturation(105%);
+  filter: sepia(80%);
+  filter: saturation(120%);
 }
 .pastevent img {
   filter: grayscale(100%);
