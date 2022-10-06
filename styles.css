@@ -185,7 +185,7 @@ input {
 }
 @media screen and (max-width: 700px) {
 .socials {
-   padding-bottom: 3vw; 
+   margin-bottom: 5vw; 
   }
 }
 table {
