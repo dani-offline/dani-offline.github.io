@@ -129,11 +129,11 @@ input {
 .bigbutton:hover {
   border: thin dotted #ffd000;
   color: #ffd000;
-  background-image: none;
 }
 @media screen and (max-width: 700px) {
 .bigbutton {
    font-size: 5vw;
+   background-image: none;
   }
 }
 .pagetitle {
