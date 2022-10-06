@@ -143,7 +143,7 @@ input {
   position: fixed;
   bottom: 0px;
   left: .5vw;
-  z-index: 5;
+  z-index: 150;
 }
 @media screen and (max-width: 700px) {
 .pagetitle {
