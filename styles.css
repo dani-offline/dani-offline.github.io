@@ -212,8 +212,8 @@ img {
   width: 100%;
 }
 .image img:hover {
-  filter: sepia(80%);
-  filter: saturation(120%);
+  filter: sepia(60%);
+  filter: saturation(200%);
 }
 .pastevent img {
   filter: grayscale(100%);
