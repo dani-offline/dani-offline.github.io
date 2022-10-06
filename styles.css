@@ -173,7 +173,7 @@ input {
 .minibutton {
    font-size: 4vw;
    background-image: none;
-   padding: 3vw;
+   margin: 1.5vw;
   }
 }
 .socials {
