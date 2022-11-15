@@ -36,6 +36,10 @@ a:hover {
 tr {
   width: 96vw;
 }
+td {
+  border: thin dotted #eb4600;
+  max-width: 32vw;
+}
 .room {
   background: #02d9a7;
   color: #eb4600;
@@ -47,9 +51,6 @@ tr {
 .room:hover {
   color: #02d9a7;
   background: #eb4600;
-}
-td {
-  border: thin dotted #eb4600;
 }
 .popup  {
 	position: relative;
