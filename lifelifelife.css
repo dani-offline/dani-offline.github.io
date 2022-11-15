@@ -2,7 +2,7 @@
 
 body {
   background: #02d9a7;
-  text-align: center;
+  text-align: justify;
   font-family: 'aglet-mono', monospace;
   font-size: 1.5vw;
   color: #eb4600;
@@ -12,7 +12,6 @@ body {
 h1 {
   font-family: 'faune', monospace;
   font-style: italic;
-  text-align: justify;
   -webkit-animation: flash 10s;
 	animation: flash 10s;
 	animation-iteration-count: infinite;
