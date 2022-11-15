@@ -66,20 +66,20 @@ td {
   font-size: 1.1rem;
 }
 .popup .popuptext {
-	cursor: pointer;
-	z-index: 1;
-	visibility: hidden;
-	color: #dedede;
+  cursor: pointer;
+  z-index: 1;
+  visibility: hidden;
+  color: #eb4600;
   background-color: #036cff;
   border: thin dotted #eb4600;
-	font-size: 1.3rem;
+  font-size: 5vw;
   font-style: normal;
-	width: 95vw;
+  width: 95vw;
   height: 95vh;
-	position: fixed;
-	padding: 5px;
-	top: 10px;
-	left: 2vw;
+  position: fixed;
+  padding: 5px;
+  top: 10px;
+  left: 2vw;
   overflow: auto;
 }
 .popup .popuptext::after {
@@ -100,7 +100,7 @@ td {
   to {opacity:1 ;}
 }
 .video {
- height: 90vh;
+ height: 30vh;
  width: 98%;
  padding: 5%;
  border: none;
