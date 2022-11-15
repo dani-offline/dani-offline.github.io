@@ -12,6 +12,8 @@ body {
 h1 {
   font-family: 'faune', monospace;
   font-style: italic;
+  text-align: justify;
+  text-justify: inter-word;
   -webkit-animation: flash 10s;
 	animation: flash 10s;
 	animation-iteration-count: infinite;
@@ -138,4 +140,5 @@ img {
 }
 .secret:hover {
   color: #eb4600;
+  text-align: center;
 }
