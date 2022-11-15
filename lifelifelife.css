@@ -38,11 +38,11 @@ a:hover {
 }
 tr {
   width: 96vw;
-  max-height: 20vh;
 }
 td {
   border: thin dotted #eb4600;
   max-width: 32vw;
+  max-height: 20vh;
 }
 .room {
   background: #02d9a7;
