@@ -37,11 +37,11 @@ a:hover {
     radial-gradient(#ff3300 .5px, transparent .5px);
 }
 tr {
-  width: 96vw;
+  width: 93vw;
 }
 td {
   border: thin dotted #eb4600;
-  width: 32vw;
+  width: 31vw;
   height: 30vh;
 }
 .room {
