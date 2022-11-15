@@ -125,3 +125,11 @@ img {
   src: url(Faune-Display_Bold_Italic.woff) format(woff);
   font-display: swap;
 }
+.secret {
+  color: #02d9a7;
+  position: fixed;
+  bottom: 10px;
+}
+.secret:hover {
+  color: #eb4600;
+}
