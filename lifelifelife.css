@@ -133,6 +133,7 @@ img {
   color: #02d9a7;
   position: fixed;
   bottom: 10px;
+  text-align: center;
 }
 .secret:hover {
   color: #eb4600;
