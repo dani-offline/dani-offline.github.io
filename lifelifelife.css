@@ -32,11 +32,13 @@ h1 {
   width: 33vw;
   cursor: pointer;
   font-style: italic;
-  border: thin dotted #eb4600;
 }
 .room:hover {
   color: #02d9a7;
   background: #eb4600;
+}
+td {
+  border: thin dotted #eb4600;
 }
 .popup  {
 	position: relative;
