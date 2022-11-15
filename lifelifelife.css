@@ -11,6 +11,7 @@ body {
 }
 h1 {
   font-family: 'faune', monospace;
+  font-style: italic;
   -webkit-animation: flash 10s;
 	animation: flash 10s;
 	animation-iteration-count: infinite;
