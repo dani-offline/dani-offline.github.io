@@ -123,6 +123,7 @@ img {
   max-width: 80vw;
   max-height: 80vh;
   margin: auto;
+  padding: 20vh;
 }
 @font-face {
   font-family: Faune;
