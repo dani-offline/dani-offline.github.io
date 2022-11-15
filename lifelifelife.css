@@ -42,7 +42,7 @@ tr {
 td {
   border: thin dotted #eb4600;
   width: 31vw;
-  height: 30vh;
+  height: 20vh;
 }
 .room {
   background: #02d9a7;
@@ -106,14 +106,14 @@ td {
 .video {
  height: 40vh;
  width: 80%;
- padding: 20vh;
- margin: auto;
+ padding: 10%;
  border: none;
+ margin: auto;
 }
 .collage {
   transition: transform .3s; /* Animation */
   margin: auto;
-  width: 75%;
+  width: 65%;
   padding: 10%;
 }
 .collage:hover {
@@ -124,7 +124,6 @@ img {
   max-width: 80vw;
   max-height: 80vh;
   margin: auto;
-  padding: 20vh;
 }
 @font-face {
   font-family: Faune;
