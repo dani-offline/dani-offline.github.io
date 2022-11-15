@@ -2,7 +2,7 @@
 
 body {
   background: #02d9a7;
-  text-align: justify;
+  text-align: center;
   font-family: 'aglet-mono', monospace;
   font-size: 1.5vw;
   color: #eb4600;
@@ -100,9 +100,8 @@ td {
   to {opacity:1 ;}
 }
 .video {
- height: 30vh;
- width: 98%;
- padding: 5%;
+ height: 40vh;
+ padding: 20vh;
  border: none;
 }
 .collage {
