@@ -27,6 +27,9 @@ h1 {
   to {color: #eeff03;}
 }
 }
+table {
+  width: 98vw;
+}
 .room {
   background: #02d9a7;
   color: #eb4600;
