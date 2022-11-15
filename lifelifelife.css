@@ -9,7 +9,20 @@ body {
   margin: 0px;
   cursor: default;
 }
-
+h1 {
+  font-family: 'faune', monospace;
+  -webkit-animation: flash 5s;
+	animation: flash 5s;
+}
+@-webkit-keyframes flash {
+  from {color: #ff0374;} 
+  to {color: #eeff03;}
+}
+@keyframes flash {
+  from {color: #ff0374;} 
+  to {color: #eeff03;}
+}
+}
 .room {
   background: #02d9a7;
   color: #eb4600;
@@ -61,7 +74,7 @@ body {
 	-webkit-animation: fadeIn 1s;
 	animation: fadeIn 1s;
 }
-	@-webkit-keyframes fadeIn {
+@-webkit-keyframes fadeIn {
   from {opacity: 0;} 
   to {opacity: 1;}
 }
@@ -90,4 +103,9 @@ img {
   max-width: 100vw;
   max-height: 95vh;
   margin: auto;
+}
+@font-face {
+  font-family: Faune;
+  src: url(Faune-Display_Bold_Italic.woff) format(woff);
+  font-display: swap;
 }
