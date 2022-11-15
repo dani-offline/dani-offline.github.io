@@ -27,6 +27,13 @@ h1 {
   to {color: #eeff03;}
 }
 }
+a {
+  text-decoration: none;
+  color: #eb4600;
+}
+a:hover {
+  color: #eb4600;
+}
 tr {
   width: 98vw;
 }
