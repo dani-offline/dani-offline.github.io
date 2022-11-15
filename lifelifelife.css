@@ -41,8 +41,8 @@ tr {
 }
 td {
   border: thin dotted #eb4600;
-  max-width: 32vw;
-  max-height: 20vh;
+  width: 32vw;
+  height: 30vh;
 }
 .room {
   background: #02d9a7;
