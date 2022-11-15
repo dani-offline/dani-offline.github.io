@@ -11,8 +11,10 @@ body {
 }
 h1 {
   font-family: 'faune', monospace;
-  -webkit-animation: flash 5s;
-	animation: flash 5s;
+  -webkit-animation: flash 10s;
+	animation: flash 10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
 @-webkit-keyframes flash {
   from {color: #ff0374;} 
