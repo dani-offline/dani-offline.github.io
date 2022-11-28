@@ -29,23 +29,14 @@ h1 {
   to {color: #eeff03;}
 }
 }
-a {
-  text-decoration: none;
-  color: #eb4600;
-  cursor: pointer;
-  font-weight: 600;
-}
-a:hover {
-  background-image: 
-    radial-gradient(#ff3300 .5px, transparent .5px);
-}
 tr {
   width: 93vw;
+  height: 22vh;
 }
 td {
   border: thin dotted #eb4600;
-  width: 31vw;
-  height: 20vh;
+  width: 33%;
+  height: 100%;
 }
 .room {
   background: #02d9a7;
@@ -58,6 +49,16 @@ td {
 .room:hover {
   color: #02d9a7;
   background: #eb4600;
+}
+.download {
+  text-decoration: none;
+  color: #eb4600;
+  cursor: pointer;
+  font-weight: 600;
+}
+.download:hover {
+  background-image: 
+    radial-gradient(#ff3300 .5px, transparent .5px);
 }
 .popup  {
 	position: relative;
