@@ -12,6 +12,8 @@ body {
 h1 {
   font-family: 'faune', monospace;
   font-style: italic;
+  text-align: justify;
+  letter-spacing: 3vw;
   -webkit-animation: flash 10s;
 	animation: flash 10s;
 	animation-iteration-count: infinite;
@@ -36,8 +38,6 @@ td {
   height: 100%;
 }
 .neonsign {
-  text-align: justify;
-  text-justify: inter-character;
   width: 93vw;
 }
 .room {
