@@ -13,7 +13,7 @@ h1 {
   font-family: 'faune', monospace;
   font-style: italic;
   text-align: justify;
-  text-justify: inter-character;
+  text-justify: inter-word;
   width: 93vw;
   -webkit-animation: flash 10s;
 	animation: flash 10s;
