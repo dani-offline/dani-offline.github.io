@@ -54,13 +54,13 @@ td {
 }
 .download {
   text-decoration: none;
-  color: #eb4600;
+  color: #eeff03;
   cursor: pointer;
   font-weight: 600;
 }
 .download:hover {
   background-image: 
-    radial-gradient(#ff3300 .5px, transparent .5px);
+    radial-gradient(#036cff; .5px, transparent .5px);
 }
 .popup  {
 	position: relative;
