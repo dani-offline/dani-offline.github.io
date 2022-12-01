@@ -13,7 +13,7 @@ h1 {
   font-family: 'faune', monospace;
   font-style: italic;
   text-align: justify;
-  letter-spacing: 5vw;
+  letter-spacing: 3.5vw;
   -webkit-animation: flash 10s;
 	animation: flash 10s;
 	animation-iteration-count: infinite;
@@ -30,7 +30,7 @@ h1 {
 }
 tr {
   width: 93vw;
-  height: 20vh;
+  height: 10vh;
 }
 td {
   border: thin dotted #eb4600;
@@ -109,8 +109,15 @@ td {
   to {opacity:1 ;}
 }
 .video {
- height: 40vh;
- width: 80%;
+ height: 70vh;
+ width: 60%;
+ padding: 10%;
+ border: none;
+ margin: auto;
+}
+.pdf {
+ height: 30vh;
+ width: 30%;
  padding: 10%;
  border: none;
  margin: auto;
