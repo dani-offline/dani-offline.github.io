@@ -152,3 +152,6 @@ img {
   color: #eb4600;
   text-align: center;
 }
+audio {
+  max-width: 80%;
+}
