@@ -29,14 +29,6 @@ h1 {
   to {color: #eeff03;}
 }
 }
-tr {
-  width: 93vw;
-  height: 20vh;
-}
-td {
-  width: 33%;
-  height: 20vh;
-}
 .neonsign {
   width: 93vw;
 }
@@ -47,12 +39,12 @@ td {
   cursor: pointer;
   font-style: italic;
   border: thin dotted #02d9a7;
+  width: 31vw;
+  height: 20vh;
 }
 .room:hover {
-  color: #eb4600;
-  border-bottom: thin dotted #eb4600;
-  border-left: thin dotted #eb4600;
-
+  color: #eeff03;
+  background-color: #eb4600;
 }
 .download {
   text-decoration: none;
