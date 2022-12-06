@@ -31,10 +31,11 @@ h1 {
 }
 tr {
   width: 93vw;
+  height: 20vh;
 }
 td {
-  border: thin dotted #eb4600;
   width: 33%;
+  height: 20vh;
 }
 .neonsign {
   width: 93vw;
@@ -45,11 +46,13 @@ td {
   padding: 2.5rem;
   cursor: pointer;
   font-style: italic;
-  height: 5vh;
+  border: thin dotted #02d9a7;
 }
 .room:hover {
-  color: #02d9a7;
-  background: #eb4600;
+  color: #eb4600;
+  border-bottom: thin dotted #eb4600;
+  border-left: thin dotted #eb4600;
+
 }
 .download {
   text-decoration: none;
