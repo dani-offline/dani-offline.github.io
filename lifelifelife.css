@@ -35,7 +35,6 @@ tr {
 td {
   border: thin dotted #eb4600;
   width: 31vw;
-  height: 15vh;
 }
 .neonsign {
   width: 93vw;
@@ -46,6 +45,7 @@ td {
   padding: 2.5rem;
   cursor: pointer;
   font-style: italic;
+  height: 15vh;
 }
 .room:hover {
   color: #02d9a7;
