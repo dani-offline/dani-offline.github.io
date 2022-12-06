@@ -43,6 +43,7 @@ h1 {
   font-style: italic;
   border: thin dotted #02d9a7;
   width: 31vw;
+  height: 30vh;
 }
 .room:hover {
   color: #eeff03;
