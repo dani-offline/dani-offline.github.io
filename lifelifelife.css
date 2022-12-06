@@ -13,7 +13,8 @@ h1 {
   font-family: 'faune', monospace;
   font-style: italic;
   text-align: justify;
-  letter-spacing: 3.2vw;
+  letter-spacing: 2.0vw;
+  text-align: center;
   -webkit-animation: flash 10s;
 	animation: flash 10s;
 	animation-iteration-count: infinite;
