@@ -14,7 +14,6 @@ h1 {
   font-style: italic;
   text-align: justify;
   letter-spacing: 2.0vw;
-  text-align: center;
   -webkit-animation: flash 10s;
 	animation: flash 10s;
 	animation-iteration-count: infinite;
@@ -30,7 +29,7 @@ h1 {
 }
 }
 .rooms {
-  max-height: 80vh;
+  max-height: 30vh;
 }
 .neonsign {
   width: 93vw;
