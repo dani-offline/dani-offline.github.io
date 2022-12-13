@@ -28,9 +28,11 @@ h1 {
   to {color: #eeff03;}
 }
 }
+table {
+  margin: auto;
+}
 .rooms {
   max-height: 30vh;
-  margin: auto;
 }
 .room {
   background: #02d9a7;
@@ -41,7 +43,6 @@ h1 {
   border: thin dotted #02d9a7;
   height: 30vh;
   width: 30vw;
-  margin: auto;
 }
 .room:hover {
   color: #eeff03;
