@@ -28,6 +28,13 @@ h1 {
   to {color: #eeff03;}
 }
 }
+p {
+  font-size: 3vw;
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  writing-mode: vertical-lr;
+}
 table {
   margin: auto;
 }
@@ -79,7 +86,7 @@ table {
   color: #eb4600;
   background-color: #036cff;
   border: thin dotted #eb4600;
-  font-size: 2vw;
+  font-size: 5vw;
   font-style: normal;
   width: 95vw;
   height: 95vh;
@@ -140,7 +147,7 @@ img {
 }
 .secret {
   color: #02d9a7;
-  font-size: 1vw;
+  font-size: 1.5vw;
   position: fixed;
   bottom: 5px;
   right: 5px;
