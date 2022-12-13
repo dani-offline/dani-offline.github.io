@@ -107,14 +107,12 @@ table {
 }
 .video {
  height: 50vh;
- width: 20%;
  padding: 10%;
  border: none;
  margin: auto;
 }
 .pdf {
- height: 30vh;
- width: 30%;
+ height: 50vh;
  padding: 10%;
  border: none;
  margin: auto;
