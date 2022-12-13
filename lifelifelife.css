@@ -139,8 +139,10 @@ img {
 }
 .secret {
   color: #02d9a7;
+  font-size: 1vw;
   position: fixed;
   bottom: 5px;
+  right: 5px;
   writing-mode: vertical-lr;
 }
 .secret:hover {
