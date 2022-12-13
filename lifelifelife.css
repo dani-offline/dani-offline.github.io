@@ -144,11 +144,10 @@ img {
   color: #02d9a7;
   position: fixed;
   bottom: 10px;
-  text-align: center;
+  text-orientation: vertical-rl;
 }
 .secret:hover {
   color: #eb4600;
-  text-align: center;
 }
 audio {
   max-width: 80%;
