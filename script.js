@@ -1,6 +1,6 @@
 
 
-function myFunction() {
+function myFunction1() {
 	var popup = document.getElementById("1");
 	popup.classList.toggle("show");
 }
