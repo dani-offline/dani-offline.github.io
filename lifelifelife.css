@@ -43,6 +43,7 @@ table {
   border: thin dotted #02d9a7;
   height: 30vh;
   width: 30vw;
+  margin: auto;
 }
 .room:hover {
   color: #eeff03;
