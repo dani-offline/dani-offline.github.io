@@ -107,14 +107,12 @@ table {
 }
 .video {
  height: 50vh;
- width: 20%;
  padding: 10%;
  border: none;
  margin: auto;
 }
 .pdf {
- height: 30vh;
- width: 30%;
+ height: 50vh;
  padding: 10%;
  border: none;
  margin: auto;
@@ -141,9 +139,11 @@ img {
 }
 .secret {
   color: #02d9a7;
+  font-size: 1vw;
   position: fixed;
   bottom: 5px;
-  text-orientation: vertical-rl;
+  right: 5px;
+  writing-mode: vertical-lr;
 }
 .secret:hover {
   color: #eb4600;
