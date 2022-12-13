@@ -30,6 +30,7 @@ h1 {
 }
 .rooms {
   max-height: 30vh;
+  margin: auto;
 }
 .neonsign {
   width: 93vw;
