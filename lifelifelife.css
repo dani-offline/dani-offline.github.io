@@ -166,10 +166,10 @@ audio {
   font-weight: 500;
   line-height: 2.5vw;
 }
-#welcome a {
+#secret a {
   text-decoration: underline;
   color: #02d9a7;
 }
-#welcome a:hover {
+#secret a:hover {
   color: #eb4600;
 }
