@@ -5,7 +5,7 @@ body {
   text-align: center;
   font-family: 'aglet-mono', monospace;
   font-size: 1.5vw;
-  line-height: 1.5vw;
+  line-height: 2vw;
   color: #eb4600;
   margin: 0px;
   cursor: default;
@@ -89,6 +89,7 @@ table {
   border: thin dotted #eb4600;
   font-size: 5vw;
   font-style: normal;
+  line-height: 5vw;
   width: 95vw;
   height: 95vh;
   position: fixed;
@@ -162,8 +163,8 @@ audio {
 }
 #welcome {
   text-align: left;
-  font-weight: 400;
-  line-height: 2vw;
+  font-weight: 500;
+  line-height: 2.5vw;
 }
 #welcome a {
   text-decoration: underline;
