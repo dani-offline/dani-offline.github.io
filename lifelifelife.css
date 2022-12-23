@@ -164,3 +164,6 @@ audio {
   text-align: left;
   font-weight: 400;
 }
+#welcome a {
+  text-decoration: underline;
+}
