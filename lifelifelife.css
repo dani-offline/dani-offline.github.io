@@ -5,6 +5,7 @@ body {
   text-align: center;
   font-family: 'aglet-mono', monospace;
   font-size: 1.5vw;
+  line-height: 1.5vw;
   color: #eb4600;
   margin: 0px;
   cursor: default;
@@ -161,4 +162,5 @@ audio {
 }
 #welcome {
   text-align: left;
+  font-weight: 400;
 }
