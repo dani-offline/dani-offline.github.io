@@ -168,4 +168,8 @@ audio {
 }
 #welcome a {
   text-decoration: underline;
+  color: #02d9a7;
+}
+#welcome a:hover {
+  color: #eb4600;
 }
